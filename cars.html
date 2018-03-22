@@ -1,0 +1,48 @@
+<html>
+    <head>
+
+        <!-- Load AMD loader  -->
+        <script type="text/javascript" src="scripts/require.js"></script>
+
+        <!-- AMD Loader configuration -->
+        <script type="text/javascript" src="scripts/requireConfig.js"></script>
+
+    </head>
+    <body>
+
+        Menu
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="database.html">Database</a>
+            </li>
+            <li>
+                <a href="cars.html">Cars</a>
+            </li>
+        </ul>
+
+        <div id="content">
+
+            <label for="ford">Ford</label>
+            <input id="ford" type="radio" name="marque">
+            
+            <label for="volkswagen">Volkswagen</label>
+            <input id="volkswagen" type="radio" name="marque">
+
+            <hr>
+
+            <label for="mondeo">Mondeo</label>
+            <input id="mondeo" type="radio" name="model">
+            
+            <label for="passat">Passat</label>
+            <input id="passat" type="radio" name="model">
+
+        </div>
+
+        <!-- Page entry point -->
+        <script type="text/javascript" src="scripts/pages/cars.js"></script>
+
+    </body>
+</html>
